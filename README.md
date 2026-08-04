@@ -17,7 +17,21 @@ I build production-grade AI systems, including machine learning models, computer
 
 ## 🚀 Featured Projects
 
-### 📊 1. Machine Learning Capstone (Springboard)
+### ✈️ 1. Travel Social Agent
+🔗 https://github.com/lqw110/travel-social-agent
+
+An agentic AI app that turns a travel story and a folder of photos into a ready-to-publish Facebook post — with a human approving every step before anything goes live.
+
+- Multimodal pipeline: an LLM analyzes the story, then a vision model scores every photo for relevance and writes a plain-language reason for each pick
+- Human-in-the-loop by design — nothing is ever auto-posted; publishing requires an explicit approval click, with a dry-run mode on by default
+- Five-step guided workflow (Story → Photos → Recommendations → Caption → Publish) built with Streamlit, with an editable AI-generated caption, live Facebook post preview, and one-click revisions
+- Integrates the Meta Graph API for real publishing, and explores LangGraph for workflow orchestration
+
+**Tech:** Python, OpenAI GPT-4o (text + vision), Streamlit, LangGraph, Meta Graph API
+
+---
+
+### 📊 2. Machine Learning Capstone (Springboard)
 🔗 https://github.com/lqw110/Springboardminiprojects
 
 - End-to-end machine learning project covering data cleaning, feature engineering, and modeling  
@@ -28,7 +42,7 @@ I build production-grade AI systems, including machine learning models, computer
 
 ---
 
-### 👁️ 2. Computer Vision Project (MCIT - CIS 5810)
+### 👁️ 3. Computer Vision Project (MCIT - CIS 5810)
 🔗 https://github.com/lqw110/CIS5810_final_project *(Private Repository)*
 
 - Developed a computer vision system as part of graduate coursework  
